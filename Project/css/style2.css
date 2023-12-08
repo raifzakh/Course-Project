@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    
+    background-color: #EAE4D8;
+    color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 130px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.name h1{
+    align-items: center;
+    font-family: 'Ephesis', sans-serif;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px rgba(45, 19, 0, 0.7); 
+}
+.first{
+    color: #DE9967;
+    font-size: 80px;
+}
+.second{
+    color: brown;
+    font-weight: bold;
+    font-size: 70px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About section styles */
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Newinfo section styles */
+.newinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newinfo h2 {
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.newinfo p {
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.image-container {
+    max-width: 40%;
+}
+
+.image-container img {
+    width: 400px;
+    height: auto;
+    display: block;
+    border: #000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Footer Styles */
+/* Style for footer */
+footer {
+    background-color: #050505;
+    padding: 20px;
+}
+
+/* Style for company info */
+.company-info {
+    text-align: center;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company-info ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.company-info ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.company-info p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}

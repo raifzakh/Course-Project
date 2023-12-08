@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    
+    background-color: #EAE4D8;
+    color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 130px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.name h1{
+    align-items: center;
+    font-family: 'Ephesis', sans-serif;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px rgba(45, 19, 0, 0.7); 
+}
+.first{
+    color: #DE9967;
+    font-size: 80px;
+}
+.second{
+    color: brown;
+    font-size: 70px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f2f2f2;
+}
+
+
+
+.btn-container-1{
+    width: 5%;
+    margin: auto;
+    padding: 20px;
+  }
+  .btn-container-1 .btn{
+    color: black;
+    font-weight: 400;
+    line-height: 45px;
+    margin: auto;
+    max-width: 0px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .btn-container-1 .btn:hover {
+    text-decoration: none;
+  }
+  .btn-container-1 .btn-1 {
+    font-weight: 100;
+  }
+  .btn-container-1 .btn-1 svg {
+    height: 45px;
+    left: -62px;
+    position: absolute;
+    width: 200px;
+  }
+  .btn-container-1 .btn-1 rect {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+  .btn-container-1 .btn-1:hover {
+    background: rgba(225, 51, 45, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .btn-container-1 .btn-1:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1s ease-in-out;
+  }
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.one:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Text container on hover */
+.one:hover .text-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Change background color on hover */
+    padding: 20px; /* Adjust padding on hover */
+    border-radius: 10px; /* Add border radius on hover */
+}
+
+.text-container {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 45%; 
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    margin: 0%;
+}
+
+.one:nth-child(2) .image-container {
+    margin-right: 70px; /* Add a margin to shift the image to the left */
+}
+
+.video-masthead {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust this as needed for the desired height */
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.video-masthead h1 {
+    position: absolute;
+    top: 20px; /* Adjust the top position */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; /* Text color */
+    z-index: 1;
+    font-size: 3em; /* Adjust font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for visibility */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.video-masthead:hover h1 {
+    opacity: 1; /* Show the h1 on hover */
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Footer Styles */
+/* Style for footer */
+footer {
+    background-color: #050505;
+    padding: 20px;
+}
+
+/* Style for company info */
+.company-info {
+    text-align: center;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company-info ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.company-info ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.company-info p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}

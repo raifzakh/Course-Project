@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    
+    background-color: #EAE4D8;
+    color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 130px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.name h1{
+    align-items: center;
+    font-family: 'Ephesis', sans-serif;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px rgba(45, 19, 0, 0.7); 
+}
+.first{
+    color: #DE9967;
+    font-size: 80px;
+}
+.second{
+    color: brown;
+    font-size: 70px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+/* Product Details */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows */
+    gap: 20px; /* Gap between grid items */
+    margin: 20px
+}
+
+.grid div {
+    border: 2px solid #ccc; /* Border around grid items */
+    padding: 20px; /* Padding inside grid items */
+    text-align: center; /* Center-align text */
+    display: flex; /* Use flexbox for content alignment */
+    flex-direction: column; /* Stack content vertically */
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid img {
+    
+    background-color: black;
+    width: 100%; /* Ensure images take full width within their containers */
+    height: 70%; /* Ensure images take full height within their containers */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border: 2px solid black;
+}
+
+.grid img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.grid div:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
+
+.grid h2 {
+    margin: 10px 0; /* Spacing around text */
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    margin-top: 20px;
+} 
+
+.grid p {
+    margin: 10px 0; /* Spacing around text */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    margin-bottom: 20px;
+}
+
+.grid p:last-child {
+    font-weight: normal; /* Reduce weight for the price */
+    color: #888; /* Adjust color for price text */
+}
+/* Targeting the button class */
+.btn-container-1 .btn {
+    /* Your button styles here */
+    font-size: 20px;
+    background-color: #DE9967;
+    color: #3c1900;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect for the button */
+  .btn-container-1 .btn:hover {
+    background-color: #3c1900;
+    color: #fff;
+  }
+  
+/* Footer Styles */
+/* Style for footer */
+footer {
+    background-color: #050505;
+    padding: 20px;
+}
+
+/* Style for company info */
+.company-info {
+    text-align: center;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company-info ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.company-info ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.company-info p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
